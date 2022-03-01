@@ -10,7 +10,6 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 -- Modes
 --   normal_mode = "n",
@@ -77,3 +76,6 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
+-- Nvimtree
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+-- keymap("n", "<leader>e", ":Lex 30<cr>", opts)
