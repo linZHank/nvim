@@ -8,5 +8,4 @@ require "pbd0.telescope"
 require "pbd0.treesitter"
 require "pbd0.autopairs"
 require "pbd0.comment"
-
-
+require "pbd0.gitsigns"
