@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/palebluedotian0/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/palebluedotian0/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/palebluedotian0/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
